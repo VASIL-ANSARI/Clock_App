@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="alarm">
+        <group>Alarm-1</group>
+        <group>Alarm-2</group>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

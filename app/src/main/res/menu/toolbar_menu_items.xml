@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/add_alarm_id"
+        android:title="Add Alarm"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_alarm"/>
+    <item
+        android:title="Delete"
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_baseline_delete"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="Voice"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_keyboard_voice_24"
+        android:id="@+id/voice_id"/>
+    <item
+        android:id="@+id/settings_id"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+</menu>

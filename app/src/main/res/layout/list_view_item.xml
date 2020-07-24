@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/round_list"
+    android:layout_margin="10dp"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_alarm"
+        android:id="@+id/alertTitle_id"/>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="25dp"
+        android:id="@+id/checkbox_id"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm Added"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="#008080"
+        android:fontFamily="casual"
+        android:layout_toRightOf="@+id/alertTitle_id"
+        android:padding="2dp"
+        android:id="@+id/alarm_text_id"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Date"
+        android:layout_margin="12dp"
+        android:textColor="#323232"
+        android:fontFamily="monospace"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/add_alarm_date_id"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/alertTitle_id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#323232"
+        android:fontFamily="monospace"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/add_alarm_date_id"
+        android:id="@+id/add_alarm_time_id"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="12dp"
+        android:text="Add Time" />
+
+
+</RelativeLayout>
